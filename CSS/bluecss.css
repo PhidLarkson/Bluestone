@@ -1,0 +1,281 @@
+#menu {
+    width: 100%;
+}
+
+#entry {
+    background-color: silver;
+    border-radius: 5px;
+    width: 250px;
+    height: 15px;
+}
+
+body {
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 194, 62);
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+p {
+    font-family: High Tower Text;
+    margin: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    border-radius: 10px;
+    font-family: High Tower Text;
+    margin: 10px;
+
+}
+
+td {
+    width: 28%;
+}
+
+.table {
+    border-collapse: collapse;
+    border-radius: 10px;
+    font-family: High Tower Text;
+    margin: 10px;
+    text-align: center;
+    padding: 0px 10px 0px 10px;
+
+}
+
+.t-width {
+    width: 50px;
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+
+    margin: 10px;
+}
+
+h3 {
+    color: wheat;
+}
+
+footer {
+    background-color: rgb(129, 216, 219);
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 0px;
+    padding-top: 40px;
+}
+
+#header {
+    text-align: center;
+    background-color: cadetblue;
+    height: 60px;
+    padding-top: 20px;
+}
+
+.line {
+    background-color: rgb(51, 51, 174);
+    color: rgb(51, 51, 174);
+    margin: 0px;
+}
+
+#header a {
+    color: rgb(255, 255, 255);
+    margin: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(65, 73, 79);
+}
+
+.gallery {
+    color: snow;
+}
+
+#blue {
+    color: rgb(91, 91, 195);
+    font-size: larger;
+}
+
+@media screen and (min-width: 320px) {
+    #menu {
+        width: 100%;
+        display: block;
+    }
+
+    body {
+        font-size: 15px;
+        color: rgb(0, 0, 0);
+        background-color: rgb(250, 182, 182);
+        margin: 0px;
+        overflow-x: hidden;
+    }
+
+    #header a {
+        color: rgb(255, 255, 255);
+        margin: 18px;
+        text-decoration: none;
+        font-size: 18px;
+        padding-top: 10px;
+    }
+}
+
+@media screen and (min-width: 400px) {
+    body {
+        font-size: 18px;
+        color: rgb(0, 0, 0);
+        background-color: rgb(255, 255, 194);
+        margin: 0px;
+        overflow-x: hidden;
+    }
+
+    #header a {
+        color: rgb(255, 255, 255);
+        margin: 10px;
+        text-decoration: none;
+        font-size: 21px;
+        padding-top: 10px;
+    }
+}
+
+@media screen and (min-width: 650px) {
+    #menu {
+        width: 100%;
+        display: inline-block;
+    }
+
+    body {
+        font-size: 18px;
+        color: rgb(0, 0, 0);
+        background-color: rgb(230, 230, 205);
+        margin: 0px;
+        overflow-x: hidden;
+    }
+
+    p {
+        font-family: High Tower Text;
+        margin: 20px;
+    }
+
+    table {
+        border-collapse: collapse;
+        border-radius: 10px;
+        font-family: High Tower Text;
+        margin: 10px;
+
+    }
+
+    td {
+        width: 28%;
+    }
+
+    .table {
+        border-collapse: collapse;
+        border-radius: 10px;
+        font-family: High Tower Text;
+        margin: 10px;
+        text-align: center;
+        padding: 0px 10px 0px 10px;
+
+    }
+
+    .t-width {
+        width: 50px;
+        margin: 0px;
+        padding: 10px;
+        text-align: center;
+    }
+
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+
+        margin: 10px;
+    }
+
+    h3 {
+        color: wheat;
+    }
+
+    footer {
+        background-color: rgb(129, 216, 219);
+        width: 100%;
+        height: auto;
+        text-align: center;
+        margin: 0px;
+        padding-top: 40px;
+    }
+
+    #header {
+        text-align: center;
+        background-color: cadetblue;
+        height: 60px;
+        padding-top: 20px;
+    }
+
+    .line {
+        background-color: rgb(51, 51, 174);
+        color: rgb(51, 51, 174);
+        margin: 0px;
+    }
+
+    #header a {
+        color: rgb(255, 255, 255);
+        margin: 10px;
+        text-decoration: none;
+        font-size: 22px;
+        padding-top: 10px;
+    }
+
+    a {
+        text-decoration: none;
+        color: rgb(65, 73, 79);
+    }
+
+    .gallery {
+        color: snow;
+    }
+
+    #blue {
+        color: rgb(91, 91, 195);
+        font-size: larger;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+    body {
+        font-size: 18px;
+        color: rgb(0, 0, 0);
+        background-color: rgb(191, 255, 189);
+        margin: 0px;
+        overflow-x: hidden;
+    }
+}
+
+/* @media screen and (min-width: 2000px) {
+    body {
+        font-size: 18px;
+        color: rgb(0, 0, 0);
+        background-color: rgb(178, 246, 255);
+        margin: 0px;
+        overflow-x: hidden;
+    }
+} */
